@@ -55,12 +55,17 @@ PERGUNTAS - (pergunta/exemplos de respostas/preocupacoes e cuidados a ter ao per
 - O que poderia ser melhorado nos festivais a que frequenta (ter cuidado se nunca foi a um)
 - Considera que ter um dispositivo wearable seria util num festival (likert)
 - Qual destas funcionalidades gostaria de ver implementadas num dispositivo wearable apropriado para festivais (likert com exemplos das coisas que temos)
-- Sugestao para novas funcionalidades do sistema (?)
+- Sugestao para novas funcionalidades do sistema (?) (Pergunta aberta)
+------------------
+EXTRA
+- Dados que as pessoas podem dar (NIF/CC/...)
+- Razoes para participar em festivais (?)
+
 --------------------------
 O QUE TEMOS
 --------------------------
 -Profile
--Freinds  LiST (add por nfc)
+-Friends  LiST (add por nfc)
 -Encontrar Pessoas (gps)
 -Em que palco toca certa banda
 -Ritmo cardiaco
