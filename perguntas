@@ -39,23 +39,23 @@ EXPLORAÇÃO DO TEMA
 PERGUNTAS - (pergunta/exemplos de respostas/preocupacoes e cuidados a ter ao perguntar) 
 (?) - should we?
 --------------------------
-- IDADE (<18, 18-25, ...) 
-- Genero (masc./fem./outro)
-- Sofrer de doencas (oculares, circulatoria,respiratoria) (?)
-- Experiencia com dispositivos eletronicos (likert)
-- Que dispositivos eletronicos usa habitualmente/ esta acostumado com um wearable (escolha multipla/sim nao) (pode nunca ter usado caso seja um homem/mulher das cavernas)
-- Como aprende a usar novos equipamentos eletronicos (escolha multipla) (ter cuidado caso nunca tenha usado (?))
+- ✓IDADE (<18, 18-25, ...) 
+- ✓Genero (masc./fem./outro) 
+- ✓Sofrer de doencas (oculares, circulatoria,respiratoria) (?)
+-  Experiencia com dispositivos eletronicos (likert)  (--Nao fiz. a debaixo nao chega? --)
+- ✓Que dispositivos eletronicos usa habitualmente/ esta acostumado com um wearable (escolha multipla/sim nao) (pode nunca ter usado caso seja um homem/mulher das cavernas)
+- ✓Como aprende a usar novos equipamentos eletronicos (escolha multipla) (ter cuidado caso nunca tenha usado (?)) (--Esta igual ao do barISTa nao estou a ver como mudar--)
 - Como reage em caso de problemas com equipamentos eletronicos (ter cuidado caso nunca tenha usado (?)) (?)
-- Regularidade da rave
-- Quanto tempo demora a adquirir um produto num festival (ter cuidado se nunca foi a um) (?)
-- Costuma consumir num festival (bebida e/ou comida) (ter cuidado se nunca foi a um) (?)
-- Quais os meios de pagamento que usa/esta familiarizado com nfc
-- Costuma ir acompanhado (ter cuidado se nunca foi a um)
+- ✓Regularidade da rave
+- ✓Quanto tempo demora a adquirir um produto num festival (ter cuidado se nunca foi a um) (?)
+- ✓Costuma consumir num festival (bebida e/ou comida) (ter cuidado se nunca foi a um) (?)
+- ✓Quais os meios de pagamento que usa/esta familiarizado com nfc
+- ✓Costuma ir acompanhado (ter cuidado se nunca foi a um)
 - Quais as principais preocupacoes quando frequenta um festival (boa musica, boa companhia, bom ambiente...) (ter cuidado se nunca foi a um)
 - O que poderia ser melhorado nos festivais a que frequenta (ter cuidado se nunca foi a um)
-- Considera que ter um dispositivo wearable seria util num festival (likert)
-- Qual destas funcionalidades gostaria de ver implementadas num dispositivo wearable apropriado para festivais (likert com exemplos das coisas que temos)
-- Sugestao para novas funcionalidades do sistema (?) (Pergunta aberta)
+- ✓Considera que ter um dispositivo wearable seria util num festival (likert)
+- ✓Qual destas funcionalidades gostaria de ver implementadas num dispositivo wearable apropriado para festivais (likert com exemplos das coisas que temos)
+- ✓Sugestao para novas funcionalidades do sistema (?) (Pergunta aberta)
 ------------------
 EXTRA
 - Dados que as pessoas podem dar (NIF/CC/...)
