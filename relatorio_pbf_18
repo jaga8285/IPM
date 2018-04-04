@@ -1,0 +1,27 @@
+1->As horas misturavam-se com as opcoes
+  h.4
+  O design fazia com que as horas se misturassem com opcoes
+
+2->Má escolha de nome de menu
+  h.2
+  A funcionalidade "espera" tem um nome pouco expressivo
+
+3->Lista de amigos desordenada
+  h.4,7
+  estava desordenada -.-
+
+4->O ecra de compra de bilhetes estava mal localizado
+  h.3,6
+  O ecra de compra de bilhetes estava no menu de espera
+
+5->Peso mal distribuido
+  h.5
+  No menu SOS os botoes de confirmacao eram iguais apesar de terem funcoes opostas
+
+6->Pouca informacao sobre os transportes
+  h.2,10
+  Para quem nao sabes os transpostes locais nao há informacao/ajuda
+
+7->Nao há filtro no acesso a localizacao
+  h.3
+  A localizacao ou é partilhada para toda a gente ou com ninguem
