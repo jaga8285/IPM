@@ -2,17 +2,29 @@
 	<head>
 	  <title>iRave</title>
 	  <link rel="stylesheet" href="iRave.css">
-	  <!--<script src="rooms.js"></script>
-	  <script src="lab2.js"></script>-->
+	  <script src="iRave.js"></script>
+	  <!--<script src="lab2.js"></script>-->
 	</head>
 
-	<body>
-		<div class="button">
-			<img src="button.png">
+	<body onload="startTime()">
+		<div> <!--Main menu-->
+			<div id="button">
+				<img src="button.png">
+			</div>
+
+			<div id="scroll">
+				<img src="scroll.png">
+			</div>
+
+			<img id="irave" src="square.png">
+
+			<div id="clock"></div>
+			<div id="hour"></div>
+			<div id="minute"></div>
+
+			<div class="test" onclick="changeVisibility()">
+				<img src="button.png">
+			</div>
 		</div>
-		<div class="scroll">
-			<img src="scroll.png">
-		</div>
-		<img class="irave" src="square.png">
 	</body>
 </html>

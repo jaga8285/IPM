@@ -1,17 +1,46 @@
-.irave{
+#irave{
 	position: absolute;
     top: 40%;
     left: 45%;
 }
 
-.button{
+#button{
 	position: absolute;
-    top: 50.5%;
+    top: 49.4%;
     left: 52.8%;
 }
 
-.scroll{
+#scroll{
+	position: absolute;
+    top: 43.6%;
+    left: 52.6%;
+}
+
+#clock{
+	position: absolute;
+    top: 41%;
+    left: 50.5%;
+}
+
+#hour{
 	position: absolute;
     top: 44%;
-    left: 52.8%;
+    left: 46%;
+    font-size: 25pt;
+    font-family: sans-serif;
+    visibility: visible;
+}
+
+#minute{
+	position: absolute;
+    top: 48%;
+    left: 46%;
+    font-size: 25pt;
+    font-family: sans-serif;
+}
+
+.test{
+	position: absolute;
+    top: 47%;
+    left: 50%;
 }
