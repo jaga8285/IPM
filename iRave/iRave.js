@@ -15,7 +15,18 @@ function checkTime(i) {
     return i;
 }
 
+var active = false;
 function changeVisibility() {
-    document.getElementById("hour").style.visibility = "hidden";
+    if(active){
+        document.getElementById("hour").style.visibility = "hidden";
+        document.getElementById("minute").style.visibility = "hidden";
+        document.getElementById("shortcuts").style.visibility = "hidden";
+        active = false;
+    }else{
+        document.getElementById("hour").style.visibility = "visible";
+        document.getElementById("minute").style.visibility = "visible";
+        document.getElementById("shortcuts").style.visibility = "visible";
+        active=true;
+    }
 }
 
