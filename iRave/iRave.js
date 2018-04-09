@@ -30,3 +30,18 @@ function changeVisibility() {
     }
 }
 
+function upaupa(element){
+    var id = setInterval(frame,5);
+    var elem = document.getElementById(element);
+    var scale = 30;
+    function frame(){
+        if (scale == 100){
+            clearInterval(id);
+        } else {
+            elem.style.width = scale +'px';
+            elem.style.height = scale +'px';
+            scale++;
+        }
+    }
+}
+

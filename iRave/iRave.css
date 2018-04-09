@@ -3,7 +3,7 @@
     left:27.5%;
     width: 18em;
     height: 18em;
-    /*background: yellow;*/
+    background: yellow;
     position: relative;
 }
 
@@ -67,8 +67,5 @@
     left:38%;
     top:7%;
     position: absolute;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
     visibility: hidden;
 }
