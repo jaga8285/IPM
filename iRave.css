@@ -1,6 +1,71 @@
-.irave{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: center;
+#mainmenu{
+    top:20%;
+    left:27.5%;
+    width: 18em;
+    height: 18em;
+    background: yellow;
+    position: relative;
+}
+
+#irave{
+    width:9.5em; 
+    height:9.5em;
+	position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#button{
+	position: relative;
+    top: 25%;
+    left: 52%;
+}
+
+#scroll{
+	position: absolute;
+    top: 8%;
+    left: 52%;
+}
+
+#clock{
+    visibility: hidden;
+	position: absolute;
+    top: 41%;
+    left: 50.5%;
+}
+
+#hour{
+	position: absolute;
+    top: 7.5%;
+    left: 5%;
+    font-size: 25pt;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+#minute{
+	position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 25pt;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+.test{
+	position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+.shortcuts_img{
+    width: 30px;
+    height: 30px;
+}
+
+#shortcuts{
+    left:38%;
+    top:7%;
+    position: absolute;
+    visibility: hidden;
 }
