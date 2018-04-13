@@ -4,16 +4,17 @@
 	  <link rel="stylesheet" href="iRave.css">
 	  <script src="iRave.js"></script>
 	  <!--<script src="lab2.js"></script>-->
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<body onload="startTime()">
+	<body onload="startTime()" ondrop="drop()">
 
 		<div id="mainmenu"> <!--Main menu-->
 			<div id="button">
 				<img src="button.png">
 			</div>
 
-			<div id="scroll">
+			<div id="scroll" draggable="true" ondrag="dragging()">
 				<img src="scroll.png">
 			</div>
 
@@ -27,15 +28,15 @@
 				<img src="button.png">
 			</div>
 
-			<table id="shortcuts">
+			<table class="shortcuts" width="10" height="110" scrolling="no">
 				<tr>
-					<td> <img src="fork.png" class ="shortcuts_img"> </td>
+					<td bgcolor="#f2d598"> <img src="food.svg" id ="food" class ="shortcuts_img" onclick="upaupa('food')"> </td>
 				</tr>
 				<tr> 
-					<td> <img src="group-512.png" class ="shortcuts_img"> </td>
+					<td bgcolor="#8e91f2"> <img src="social.svg" id ="social" class ="shortcuts_img" onclick="upaupa('social')"> </td>
 				</tr>	
 				<tr>
-					<td> <img src="info_3-512.png" class ="shortcuts_img"> </td>
+					<td bgcolor="#93e2aa"> <img src="info.svg" id ="info" class ="shortcuts_img" onclick="upaupa('info')"> </td>
 				</tr>	
 			</table>	
 		</div>
