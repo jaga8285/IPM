@@ -8,23 +8,26 @@
 }
 
 #irave{
-    width:9.5em; 
-    height:9.5em;
+    width:27em; 
+    height:27em;
 	position: absolute;
-    top: 0%;
-    left: 0%;
+    top: -143px;
+    left: -140px;
+    z-index: 5;
 }
 
 #button{
 	position: relative;
     top: 25%;
     left: 52%;
+    z-index: 6;
 }
 
 #scroll{
 	position: absolute;
     top: 8%;
     left: 52%;
+    z-index: 6;
 }
 
 #clock{
