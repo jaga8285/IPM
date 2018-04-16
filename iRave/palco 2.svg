@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,24 +7,18 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="155.10001"
    height="156"
    viewBox="0 0 155.1 155.99999"
    id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="palco 2.svg">
+   version="1.1">
   <defs
      id="defs4">
     <pattern
-       inkscape:collect="always"
        xlink:href="#pattern7820"
        id="pattern7845"
        patternTransform="matrix(-1,-0.16741204,0,1,419.02977,399.48924)" />
     <pattern
-       inkscape:collect="always"
        xlink:href="#pattern7807"
        id="pattern7820"
        patternTransform="matrix(1,-0.16741204,0,1,335.51052,399.48924)" />
@@ -38,13 +30,6 @@
          offset="0"
          id="stop6291" />
     </linearGradient>
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="207.49999 : 660.42959 : 1"
-       inkscape:vp_y="0 : 774.16049 : 0"
-       inkscape:vp_z="708.02303 : 669.83011 : 1"
-       inkscape:persp3d-origin="338.83293 : 383.63892 : 1"
-       id="perspective5733" />
     <pattern
        patternUnits="userSpaceOnUse"
        width="24.135716"
@@ -95,25 +80,6 @@
       </g>
     </pattern>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="85.634016"
-     inkscape:cy="72.154899"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     units="px" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -122,27 +88,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
      transform="translate(0,-896.36223)">
     <path
        id="path4253"
-       style="fill:#ff9788;fill-opacity:0.71264368;fill-rule:evenodd;stroke:#616161;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 92.711145,990.68577 -72.48028,-48.25893 28.0028,52.10299 c 2.36437,5.00182 14.46327,7.86187 27.77727,7.86187 13.314,0 22.80096,-2.86005 20.58843,-7.54461 0,0 -1.25056,-2.66898 -3.88822,-4.16132 z"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       style="fill:#ff888a;fill-opacity:0.71264368;fill-rule:evenodd;stroke:#616161;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 92.711145,990.68577 -72.48028,-48.25893 28.0028,52.10299 c 2.36437,5.00182 14.46327,7.86187 27.77727,7.86187 13.314,0 22.80096,-2.86005 20.58843,-7.54461 0,0 -1.25056,-2.66898 -3.88822,-4.16132 z" />
     <g
        id="g7829"
-       transform="translate(-306.62404,593.16471)">
+       transform="translate(-310.1574,593.16471)">
       <path
-         inkscape:connector-curvature="0"
          id="rect7816"
          d="m 335.51051,399.48924 24.13572,-4.04062 0,42.16679 -24.13572,4.04062 z"
          style="fill:url(#pattern7820);stroke:none" />
@@ -164,10 +125,8 @@
          style="opacity:1;fill:#d4d4d4;fill-opacity:1;stroke:#000000;stroke-width:1.30597734;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <path
-       sodipodi:nodetypes="cccccc"
-       inkscape:connector-curvature="0"
        d="m 68.996175,991.548 61.083885,-48.25893 -15.69863,52.10299 c -1.18318,5.00184 -12.60667,7.86194 -25.920665,7.86194 -13.314,0 -23.47637,-2.8601 -22.37011,-7.54468 0,0 0.62028,-2.66898 2.90552,-4.16132 z"
-       style="fill:#ff9788;fill-opacity:0.71264368;fill-rule:evenodd;stroke:#616161;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff888a;fill-opacity:0.71264368;fill-rule:evenodd;stroke:#616161;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4266" />
     <g
        id="g4232"
@@ -175,8 +134,7 @@
       <path
          style="fill:url(#pattern7845);stroke:none"
          d="m 419.02978,399.48924 -24.13572,-4.04062 0,42.16679 24.13572,4.04062 z"
-         id="path7836"
-         inkscape:connector-curvature="0" />
+         id="path7836" />
       <rect
          style="opacity:1;fill:#898989;fill-opacity:1;stroke:#000000;stroke-width:1.05844295;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect7838"
@@ -205,32 +163,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:32.57432938px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="23.286583"
-       y="937.46436"
-       id="text4268"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
+       x="25.306889"
+       y="934.93896"
+       id="text4268"><tspan
          id="tspan4270"
-         x="23.286583"
-         y="937.46436"
+         x="25.306889"
+         y="934.93896"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Times';-inkscape-font-specification:'Adobe Times'">Palco 2</tspan></text>
-    <path
-       style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 59.341571,909.48172 17.935098,-10.35483 17.935098,10.35483"
-       id="path4354"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <path
-       sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0"
-       id="path4965"
-       d="m 59.341571,1036.9013 17.935098,10.3548 17.935098,-10.3548"
-       style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 2"
      style="display:inline"
      transform="translate(0,-896.36223)" />
 </svg>
