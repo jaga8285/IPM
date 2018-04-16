@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg6919"
    version="1.1"
    viewBox="0 0 210 297"
    height="297mm"
-   width="210mm">
+   width="210mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="food.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="0.89702955"
+     inkscape:cx="112.16552"
+     inkscape:cy="574.01874"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g6959" />
   <defs
      id="defs6913">
     <clipPath
@@ -49,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -105,7 +129,7 @@
            d="m 130.67849,77.307274 3.87332,-22.906719 c 0,0 -3.32816,-0.866513 -9.31482,-0.950061 -5.98667,-0.08355 -8.87634,0.950061 -8.87634,0.950061 l 3.87332,22.906719 h 5.22226 z" />
         <path
            id="use6691-8"
-           style="opacity:1;fill:url(#linearGradient6909);fill-opacity:1;stroke:#000000;stroke-width:0.296;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#c62828;fill-opacity:1;stroke:#000000;stroke-width:0.29599607;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round"
            d="m 130.67849,77.307274 3.87332,-22.906719 c 0,0 -3.32816,1.325932 -9.31482,1.242384 -5.98667,-0.08355 -8.87634,-1.242384 -8.87634,-1.242384 l 3.87332,22.906719 h 5.22226 z" />
       </g>
     </g>
