@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="12.312286mm"
-   height="12.312286mm"
-   viewBox="0 0 12.312286 12.312286"
+   width="16.312286mm"
+   height="16.312286mm"
+   viewBox="0 0 16.312286 16.312286"
    version="1.1"
    id="svg4604"
    sodipodi:docname="help.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.91 r13725">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -23,17 +23,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      id="namedview10575"
      showgrid="false"
      inkscape:zoom="5.0714924"
-     inkscape:cx="23.267313"
-     inkscape:cy="23.267313"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="37.246159"
+     inkscape:cy="48.683294"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-bottom="2"
+     fit-margin-right="2" />
   <defs
      id="defs4598" />
   <metadata
@@ -50,19 +54,29 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(-86.070045,-51.206951)">
-    <circle
-       style="opacity:1;fill:#4cd964;fill-opacity:1;stroke:#020013;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="translate(-84.070045,-49.206951)">
+    <path
+       transform="matrix(0.70807653,0.7061357,-0.7061357,0.70807653,0,0)"
+       style="opacity:1;fill:#318f41;fill-opacity:1;stroke:#020013;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:transform-center-x="0.87678112"
+       inkscape:transform-center-y="0.88257993"
+       d="m 111.72829,-23.084677 c 0,2.127925 -1.13523,4.094209 -2.97807,5.158172 -1.84284,1.063961 -4.1133,1.063961 -5.95614,0 -1.84284,-1.063962 -2.978075,-3.030246 -2.978075,-5.158172 l 0.04135,-1.455881 c 0,2.127926 1.135234,4.09421 2.978074,5.158172 1.84284,1.063961 4.1133,1.063961 5.95614,0 1.84284,-1.063963 2.97807,-3.030247 2.97807,-5.158172 z"
        id="path837"
-       cx="92.226189"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssccsscc" />
+    <circle
+       r="5.9561434"
        cy="57.363094"
-       r="5.9561434" />
+       cx="92.226189"
+       id="circle5091"
+       style="opacity:1;fill:#4cd964;fill-opacity:1;stroke:#020013;stroke-width:0.40000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.05620861px;line-height:80.00000119%;font-family:'Adobe Fan Heiti Std';-inkscape-font-specification:'Adobe Fan Heiti Std';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.82921559px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="89.876122"
        y="61.453941"
-       id="text11122"><tspan
+       id="text11122"
+       sodipodi:linespacing="80.000001%"><tspan
          sodipodi:role="line"
          id="tspan11120"
          x="89.876122"
