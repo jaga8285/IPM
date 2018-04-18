@@ -1,0 +1,280 @@
+#mainmenu{
+    top:20%;
+    left:27.5%;
+    width: 18em;
+    height: 18em;
+    /*background: #ffd400;*/
+    background: white;
+    position: relative;
+}
+
+#irave{
+    width:27em;
+    height:27em;
+    position: absolute;
+    top: -143px;
+    left: -140px;
+    z-index: 5;
+    pointer-events:none;
+    background:url('square.svg');
+}
+
+#button{
+    position: relative;
+    top: 35%;
+    left: 74.3%;
+    z-index: 6;
+}
+
+#scroll{
+    position: absolute;
+    top: 15%;
+    left: 74.3%;
+    z-index: 6;
+}
+
+#clockBackground{
+    background: white;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 7%;
+    left: 55%;
+    z-index: 6;
+}
+
+#clock{
+    background :white;
+    background filter: blur(5px);
+    visibility: hidden;
+	position: absolute;
+    font-family: sans-serif;
+    top: 7%;
+    left: 55%;
+    z-index:6;
+}
+
+#hour{
+	position: absolute;
+    top: 5%;
+    left: 23%;
+    font-size: 52pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#minute{
+	position: absolute;
+    top: 28%;
+    left: 24%;
+    font-size: 50pt;
+    font-family: sans-serif;
+    visibility: hidden;
+}
+
+.test{
+	position: absolute;
+    top: 0%;
+    left: 102%;
+}
+
+.shortcuts_img{
+    width: 2.6em;
+    height: 2.6em;
+    z-index: 2;
+}
+
+/*width 10.3. h 10, left 18%, top 5%*/
+
+.mainMenu{
+    left:57%;
+    top:10%;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    border-radius: 0.5em;
+    border-spacing: 0em;
+    max-width: 10.6em;
+    max-height: 10.2em;
+    overflow-y: auto;
+}
+
+.mainMenu::-webkit-scrollbar{
+    width: 0px;
+}
+.subMenu{
+    left:20%;
+    top:3%;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    max-width: 10.1em;
+    max-height: 11.5em;
+    overflow-y: auto;
+}
+
+.subMenu::-webkit-scrollbar{
+    width: 0px;
+}
+
+#infoMenu{
+    left:18.5%;
+    top:3.5%;
+    position: absolute;
+}
+
+#infogeral{
+    left: 20%;
+}
+
+#help{
+    left:22%;
+    top:42%;
+    position: absolute;
+    visibility: hidden;
+    z-index: 6;
+}
+
+#helpText{
+    left:19%;
+    top:5%;
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    visibility: hidden;
+}
+
+.menuImages{
+    width: 10em;
+    height: 10em;
+}
+
+#cartazMenu{
+    left:18.2%;
+    top:3.4%;
+    position: absolute;
+}
+
+.subSubMenu{
+    left:20%;
+    top:3%;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    max-width: 15em;
+    max-height: 10em;
+    border-spacing: 0em;
+    overflow-y: auto;
+    border-radius: 1em;
+    border-color: solid black;
+}
+.subSubMenu::-webkit-scrollbar{
+    width: 0px;
+}
+
+.subMenuImages{
+    width: 9em;
+    height: 3em;
+}
+
+.bandPage{
+    visibility: hidden;
+}
+
+.displayCount{
+    top: 19%;
+    left: 54%;
+    position: absolute;
+    border-radius: 0.5em;
+    background-color: red;
+    color: white;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.notificationBell{
+    top: 7%;
+    left: 55%;
+    position: absolute;
+    width: 3em;
+    height: 3em;
+}
+
+.bandDescription{
+    left:18%;
+    top: 5%;
+    display: block;
+    position: absolute;
+    width: 10.2em;
+    height: 10em;
+    border-radius: 0.5em;
+    border-color: grey;
+}
+
+#palco1Bands{
+    position: absolute;
+    left:22%;
+    top: 13%;
+}
+
+#palco2Bands{
+    position: absolute;
+    left:22%;
+    top: 13%;
+}
+
+#palco3Bands{
+    position: absolute;
+    left:22%;
+    top: 13%;
+}
+
+
+.descImg{
+    width: 10.2em;
+    height: 10em;
+}
+
+.bandLogo{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 6em;
+    height: 3em;
+}
+
+
+#infogeral{
+    position: absolute;
+    visibility: hidden;
+    left:19.7%;
+    top:5%;
+    width: 15em;
+}
+
+.infoImages{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    width: 9.5em;
+    height: 7em;
+}
+
+#tempo{
+    position: absolute;
+    visibility: hidden;
+    left:18.8%;
+    top:5%;
+    width: 15em;
+
+}
+
+.weatherImages{
+    width: 10em;
+    height: 10em;
+}
