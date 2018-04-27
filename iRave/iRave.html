@@ -1,5 +1,4 @@
-<html>
-	<head>
+d>
 	  <title>iRave</title>
 	  <link rel="stylesheet" href="iRave.css">
 	  <script src="iRave.js"></script>
@@ -7,38 +6,174 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<body onload="startTime()" ondrop="drop()">
-
+	<body onload="startTime()">
+		
 		<div id="mainmenu"> <!--Main menu-->
-			<div id="button">
-				<img src="button.png">
+			<div id="button" ondblclick="doubleClick()" onclick="resetUpaUpa()">
+				<img src="button.svg">
 			</div>
 
-			<div id="scroll" draggable="true" ondrag="dragging()">
-				<img src="scroll.png">
+			<div id="scroll">
+				<img src="scroll.svg">
 			</div>
 
-			<img id="irave" src="square.png">
+			<div id="irave"></div>
 
+			<div id="clockBackground"></div>
 			<div id="clock"></div>
 			<div id="hour"></div>
 			<div id="minute"></div>
 
 			<div class="test" onclick="changeVisibility()">
-				<img src="button.png">
+				<img src="button.svg">
 			</div>
 
-			<table class="shortcuts" width="10" height="110" scrolling="no">
+
+			<table class="mainMenu" scrolling = "no">
 				<tr>
-					<td bgcolor="#f2d598"> <img src="food.svg" id ="food" class ="shortcuts_img" onclick="upaupa('food')"> </td>
+					<td bgcolor="#ffb651"> <img src="food.svg" id ="food" class ="shortcuts_img" onclick="upaupa('food')"> </td>
 				</tr>
 				<tr> 
-					<td bgcolor="#8e91f2"> <img src="social.svg" id ="social" class ="shortcuts_img" onclick="upaupa('social')"> </td>
+					<td bgcolor="#5c95f2"> <img src="social.svg" id ="social" class ="shortcuts_img" onclick="upaupa('social')"> </td>
 				</tr>	
 				<tr>
-					<td bgcolor="#93e2aa"> <img src="info.svg" id ="info" class ="shortcuts_img" onclick="upaupa('info')"> </td>
+					<td bgcolor="#4cd964"> <img src="info.svg" id ="info" class ="shortcuts_img" onclick="upaupa('info')"> </td>
 				</tr>	
-			</table>	
+			</table>
+
+			<img src="help.svg" id="help" onclick="goToHelp()">
+			<img src="helpscreen.png" id="helpText">
+
+			<table class="subMenu" id="infoMenu" scrolling = "no">
+				<tr>
+					<td> <img src="cartaz.png" id ="cartaz" class ="menuImages" onclick="manageInfoMenu('cartaz')"> </td>
+				</tr>
+				<tr> 
+					<td> <img src="info geral.png" class ="menuImages" onclick="manageInfoMenu('infogeral')"> </td>
+				</tr>	
+				<tr>
+					<td> <img src="meteo.png" class ="menuImages" onclick="manageInfoMenu('tempo')"> </td>
+				</tr>	
+			</table>
+
+
+			<table class="subMenu" id="cartazMenu" scrolling = "no">
+				<tr>
+					<td> <img src="palco1.png" id ="palco1" class ="menuImages" onclick="manageCartazMenu('palco1')"> </td>
+				</tr>
+				<tr> 
+					<td> <img src="palco2.png" id ="palco2" class ="menuImages" onclick="manageCartazMenu('palco2')"> </td>
+				</tr>	
+				<tr>
+					<td> <img src="palco3.png" id ="palco3" class ="menuImages" onclick="manageCartazMenu('palco3')"> </td>
+				</tr>	
+			</table>
+
+
+			<table class="subSubMenu" id="palco1Bands" scrolling = "no">
+				<tr>
+					<td> <img src="clicksanic.png" id ="band1" class ="subMenuImages" onclick="manageBandMenu('band1')"> </td>
+				</tr>
+				<tr>
+					<td> <img src="clickdzrt.png" id ="band2" class ="subMenuImages" onclick="manageBandMenu('band2')"> </td>
+				</tr>		
+			</table>
+
+
+			<table class="subSubMenu" id="palco2Bands" scrolling = "no">
+				<tr>
+					<td> <img src="clickpatadas.png" id ="bandX" class ="subMenuImages" onclick="manageBandMenu('bandX')"> </td>
+				</tr>
+				<tr>
+					<td> <img src="clickliver.png" id ="bandY" class ="subMenuImages" onclick="manageBandMenu('bandY')"> </td>
+				</tr>		
+			</table>
+
+			<table class="subSubMenu" id="palco3Bands" scrolling = "no">
+				<tr>
+					<td> <img src="clicklinkin.png" id ="bandALPHA" class ="subMenuImages" onclick="manageBandMenu('bandALPHA')"> </td>
+				</tr>
+				<tr>
+					<td> <img src="clickicejjfish.png" id ="bandBETA" class ="subMenuImages" onclick="manageBandMenu('bandBETA')"> </td>
+				</tr>		
+			</table>
+
+			<div class = "bandPage" id = "band1Page">
+				<div class = "bandDescription">
+					<img src="sanic.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBand1" class = "notificationBell" onclick="sub('band1')">
+				<img src="ringBell-512.png" id = "ringBellBand1" class = "notificationBell" onclick="sub('band1')">		
+				<span id="displayCountBand1" class= "displayCount">123</span>
+			</div>
+
+			<div class = "bandPage" id = "band2Page">
+				<div class = "bandDescription">
+					<img src="dzrt.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBand2" class = "notificationBell" onclick="sub('band2')">
+				<img src="ringBell-512.png" id = "ringBellBand2" class = "notificationBell" onclick="sub('band2')">
+				<span id="displayCountBand2" class= "displayCount">456</span>
+			</div>
+
+			<div class = "bandPage" id = "bandXPage">
+				<div class = "bandDescription">
+					<img src="patadas.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBandX" class = "notificationBell" onclick="sub('bandX')">
+				<img src="ringBell-512.png" id = "ringBellBandX" class = "notificationBell" onclick="sub('bandX')">
+				<span id="displayCountBandX" class= "displayCount">234</span>
+			</div>
+
+			<div class = "bandPage" id = "bandYPage">
+				<div class = "bandDescription">
+					<img src="liver.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBandY" class = "notificationBell" onclick="sub('bandY')">
+				<img src="ringBell-512.png" id = "ringBellBandY" class = "notificationBell" onclick="sub('bandY')">
+				<span id="displayCountBandY" class= "displayCount">567</span>
+			</div>
+
+			<div class = "bandPage" id = "bandALPHAPage">
+				<div class = "bandDescription">
+					<img src="linkin.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBandALPHA" class = "notificationBell" onclick="sub('bandALPHA')">
+				<img src="ringBell-512.png" id = "ringBellBandALPHA" class = "notificationBell" onclick="sub('bandALPHA')">
+				<span id="displayCountBandALPHA" class= "displayCount">543</span>
+			</div> 
+
+			<div class = "bandPage" id = "bandBETAPage">
+				<div class = "bandDescription">
+					<img src="icejjfish.png" class ="descImg"> 
+				</div>
+				<img src="bell-512.png" id = "bellBandBETA" class = "notificationBell" onclick="sub('bandBETA')">
+				<img src="ringBell-512.png" id = "ringBellBandBETA" class = "notificationBell" onclick="sub('bandBETA')">
+				<span id="displayCountBandBETA" class= "displayCount">243</span>
+			</div>
+
+			<table class="subSubMenu" id="tempo" scrolling = "no">
+				<tr>
+					<td> <img src="segunda.png" class ="weatherImages"> </td>
+				</tr>
+				<tr> 
+					<td> <img src="terca.png" class ="weatherImages" > </td>
+				</tr>	
+				<tr>
+					<td> <img src="quarta.png" class ="weatherImages" > </td>
+				</tr>	
+			</table>
+
+			<table class="subSubMenu" id="infogeral" scrolling = "no">
+				<tr>
+					<td> <img src="info1.png" class ="infoImages"> </td>
+				</tr>
+				<tr> 
+					<td> <img src="info2.png" class ="infoImages" > </td>
+				</tr>		
+			</table>
+
+
 		</div>
 	</body>
 </html>
